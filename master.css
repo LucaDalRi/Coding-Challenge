@@ -1,0 +1,74 @@
+body{
+  background: url("background.jpg") no-repeat fixed;
+  background-size: cover;
+  color: white;
+  font-family: 'Inter Tight', sans-serif;
+  line-height: 1em;
+}
+
+/* Quadrato trasparente */
+.transparent-square{
+  width: 1200px;
+  height: 850px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  border-radius: 3%;
+}
+
+/* logo Lim */
+#logo{
+  width: 20%;
+  height: auto;
+  margin: auto;
+  padding-top: 80px;
+  display: block;
+}
+
+/* Slogan */
+#Slogan{
+  color: rgb(0, 221, 0);
+  text-align: center;
+  font-size: 30px;
+}
+
+/* blocco nav+main dove centro il tutto e imposto un margine definito */
+.nav-main{
+  width: 1000px;
+  margin: auto;
+}
+
+/* isieme dei bottoni centrati su sfondo verde */
+.navigator{
+  background: rgb(0, 221, 0);
+  border: 12px solid transparent;
+  text-align: center;
+}
+
+/* ID scooter  */
+.scooter-id{
+  font-size: 25px;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+/* Stato batteria Scooter */
+#battery-status1{
+  width: 150px;
+  height: 30px;
+  background-color: red;
+  border-radius: 15px;
+}
+
+#battery-status2{
+  width: 350px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 15px;
+}
+
+#battery-status3{
+  width: 650px;
+  height: 30px;
+  background-color: green;
+  border-radius: 15px;
+}
